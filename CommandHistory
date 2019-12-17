@@ -1,0 +1,94 @@
+ 1  pwd
+    2  mkdir Training
+    3  cd Training/
+    4  mkdir Firstrepo
+    5  cd Firstrepo/
+    6  git init
+    7  notepad first.txt
+    8  notepad second.txt
+    9  clear
+   10  notepad first.txt
+   11  dir
+   12  git status
+   13  git add .
+   14  git status
+   15  git config --global user.name "Hari Krishnan"
+   16  git config --global user.email harikrishnan.o@gmail.com
+   17  git config --list
+   18  git status
+   19  git config --list
+   20  git commit-am
+   21  git commit-am "this is my first commit"
+   22  git log
+   23  git status
+   24  git commit -am " My First Commit"
+   25  git loh
+   26  git log
+   27  notepad thrird.txt
+   28  git status
+   29  git add .
+   30  git log
+   31  git commit -am " My second Commit"
+   32  git log
+   33  git init
+   34  git ser
+   35  git remote add origin https://github.com/harikro/firstrepo.git
+   36  git push -u origin master
+   37  ssh-keygen -t rsa -C harikrishnan.o@gmail.com
+   38  ssh -T git@github.com
+   39  cd ..
+   40  git clone git@github.com:harikro/secondrepo.git
+   41  ls
+   42  git status
+   43  cd secondrepo/
+   44  git status
+   45  git remote
+   46  ls
+   47  ls -lts
+   48  cd ..
+   49  ls -lts
+   50  cd secondrepo/
+   51  cd ..
+   52  git clone git@github.com:harikro/blogs.git
+   53  ls -lts
+   54  cd blogs/
+   55  notepad info.txt
+   56  git add .
+   57  git commit -am "first blog commit"
+   58  git push
+   59  notepad name.txt
+   60  user add .
+   61  git status
+   62  git add .
+   63  git status
+   64  notepad user1.txt
+   65  git add .
+   66  git commit -am "blog commit 2"
+   67  git push
+   68  git pull
+   69  rm -Rf .git/
+   70  ls
+   71  rm name.txt
+   72  touch Name.txt
+   73  ls
+   74  rm Name.txt
+   75  ls
+   76  git init
+   77  git add .
+   78  git commit -am "First Commit"
+   79  git remote add origin git@github.com:harikro/blogs.git
+   80  git push -u origin master
+   81  notepad name.txt
+   82  notepad Name.txt
+   83  ls
+   84  ls
+   85  notepad Name.txt
+   86  git status
+   87  git add .
+   88  git commit -am "my first blog commit"
+   89  git push
+   90  pwd
+   91  cd Training/blogs/
+   92  git pull
+   93  git log
+   94  git log --oneline
